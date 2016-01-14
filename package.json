@@ -1,0 +1,23 @@
+{
+  "name": "testExample",
+  "version": "0.0.1",
+  "description": "quick examples of test suites",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClimbsRocks/testingExamples.git"
+  },
+  "author": "Preston Parry <climbsbytes@gmail.com> (prestonparry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClimbsRocks/testingExamples/issues"
+  },
+  "homepage": "https://github.com/ClimbsRocks/testingExamples",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
