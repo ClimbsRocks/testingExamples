@@ -37,9 +37,11 @@ describe('this is our outer describe block', function() {
     });
 
     it('should have read in our helloWorld.txt file', function(done) {
-
-      expect(fileData).to.equal("'hello marvelous world'");
-      done();
+      aynchFunc(function() {
+        expect(fileData).to.equal("'hello marvelous world'");
+        done();
+        
+      });
 
     });
 
